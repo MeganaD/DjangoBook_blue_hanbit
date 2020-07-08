@@ -3,7 +3,7 @@ language: python
 python:
 - "3.8"
 
-dist: xenial
+# dist: xenial
 
 env:
 - DJANGO_VERSION=3.0.7
@@ -12,4 +12,4 @@ install:
 - pip install -r requirements.txt
 
 script:
-- python src/manage.py test 
+- python manage.py test 
